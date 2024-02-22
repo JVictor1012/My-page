@@ -60,7 +60,7 @@ export const Banner = () => {
                         <span className="tagline">
                             Bem vindo ao meu portfolio!
                         </span>
-                        <h1>{` Oi eu sou João! `}<span className="wrap">{text}</span></h1>
+                        <h1>{` Oi! eu sou João! `}<span className="wrap">{text}</span></h1>
                         <p>parte que vc fala sobre vc sdhakdshdakdahj saddad sd s adksds  sdasd sd gfrlgerg dsdfs</p>
                         
                     </Col>
