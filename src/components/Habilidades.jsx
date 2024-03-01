@@ -39,7 +39,7 @@ export const Habilidades = () =>{
               <h2>
                 Habilidades
               </h2>
-              <p>mude as imagens daqui depois ok? </p>
+              <p>mude as imagens daqui depois ok?</p>
               <Carousel responsive={responsive} infinite={true} className="slider-habilidades" >
                 <div className="item">
                   <img src={meter1} alt="image" />
