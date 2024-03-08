@@ -30,7 +30,7 @@ export const Projetos = () =>{
         <section className="project" id="project">
             <Container>
                 <Row>
-                    <Col>
+                    <Col size={12}>
                     <h2>Projetos</h2>
                     <p>Escrever sobre seus projetos aqui!</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">

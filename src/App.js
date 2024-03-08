@@ -6,6 +6,8 @@ import  { NavBar }  from "./components/NavBar";
 import  { Banner }  from "./components/Banner";
 import  { Habilidades }  from './components/Habilidades';
 import { Projetos } from  "./components/Projetos"
+import { Contato } from "./components/Contato"
+import { Footer } from "./components/Footer"
 
 function App() {
   return (
@@ -13,7 +15,9 @@ function App() {
         <NavBar/>
         <Banner />
         <Habilidades />
-        <Projetos />
+        <Projetos /> 
+        <Contato />
+        <Footer />
     </div>
   );
 }
