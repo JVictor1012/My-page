@@ -11,7 +11,7 @@ export const Banner = () => {
     const toRotate = ["Desenvolvedor Web", "Web Designer", "UX/UI Designer"];
     const [text, setText] = useState('');
     const [index, setIndex] = useState(1);
-    const [delta,setDelta] = useState(300 - Math.random() * 100)
+    const [delta,setDelta] = useState(400 - Math.random() * 100)
     const period = 2000;
 
     useEffect(() =>{
@@ -61,7 +61,7 @@ export const Banner = () => {
                             Bem vindo ao meu portfolio!
                         </span>
                         <h1>{` Oi! eu sou João! `}<span className="wrap">{text}</span></h1>
-                        <p>parte que vc fala sobre vc sdhakdshdakdahj saddad sd s adksds  sdasd sd gfrlgerg dsdfs</p>
+                        <p>Olá! Sou João, sou desenvolvedor Fullstack e um entusiasta da tecnologia apaixonado por criar soluções inovadoras. estou constantemente buscando novos desafios que me permitam expandir meus conhecimentos e contribuir para projetos significativos. Vem me conhecer!</p>
                         
                     </Col>
                     <Col xs={12} md={6} xl={5}>

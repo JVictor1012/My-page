@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from '../src/assets/img/logo.svg'
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 

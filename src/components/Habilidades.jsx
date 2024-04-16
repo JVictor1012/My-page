@@ -1,11 +1,13 @@
 import { Col, Container, Row } from "react-bootstrap";
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+
+import logo1 from "../assets/img/react-logo.svg";
+import logo2 from "../assets/img/api-logo.svg";
+import logo3 from "../assets/img/angular-logo.svg";
+import logo4 from "../assets/img/postgresql-logo.svg";
+import logo5 from "../assets/img/mongodb-logo.svg";
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
-import arrow1 from "../assets/img/arrow1.svg";
-import arrow2 from "../assets/img/arrow2.svg";
 import colorSharp from "../assets/img/color-sharp.png"
 
 export const Habilidades = () =>{
@@ -39,23 +41,27 @@ export const Habilidades = () =>{
               <h2>
                 Habilidades
               </h2>
-              <p>mude as imagens daqui depois ok?</p>
+              <p>Um pouco do que sei fazer</p>
               <Carousel responsive={responsive} infinite={true} className="slider-habilidades" >
                 <div className="item">
-                  <img src={meter1} alt="image" />
-                  <h5>Desenvolvimento Front-end</h5>
+                  <img src={logo1} alt="image" style={{ width: '204px', height: '204px' }}/>
+                  <h5>React Js.</h5>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="image" />
-                  <h5>Desenvolvimento Back-end</h5>
+                  <img src={logo2} alt="image" style={{ width: '204px', height: '204px' }} />
+                  <h5>Api Rest</h5>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="image" />
-                  <h5>Bancos de dados</h5>
+                  <img src={logo3} alt="image" style={{ width: '204px', height: '204px' }}/>
+                  <h5>Angular</h5>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="image" />
-                  <h5>Testes e Autenticação</h5>
+                  <img src={logo4} alt="image" style={{ width: '204px', height: '204px' }}/>
+                  <h5>PostgreSQL</h5>
+                </div>
+                <div className="item">
+                  <img src={logo5} alt="image" style={{ width: '204px', height: '204px' }}/>
+                  <h5>MongoDB</h5>
                 </div>
               </Carousel>
             </div>

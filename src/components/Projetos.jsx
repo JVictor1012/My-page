@@ -32,19 +32,9 @@ export const Projetos = () =>{
                 <Row>
                     <Col size={12}>
                     <h2>Projetos</h2>
-                    <p>Escrever sobre seus projetos aqui!</p>
+                    <p>Alguns de meus projetos mais interessantes!</p>
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                    <Nav variant="pills" defaultActiveKey="/home">
-                        <Nav.Item>
-                            <Nav.Link eventKey="first">Tab One</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link eventKey="second">Tab Two 2</Nav.Link>
-                        </Nav.Item>
-                        <Nav.Item>
-                            <Nav.Link eventKey="third">Tab Three</Nav.Link>
-                        </Nav.Item>
-                    </Nav>
+                    
                     <Tab.Content>
                         <Tab.Pane eventKey="first">
                             <Row>
