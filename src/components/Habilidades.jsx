@@ -33,7 +33,7 @@ export const Habilidades = () =>{
   };
 
   return (
-    <section className="habilidade" id="habilidadades">
+    <section className="habilidade" id="habilidades">
       <Container>
         <Row>
           <Col>
