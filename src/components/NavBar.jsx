@@ -6,8 +6,8 @@ import Navbar from 'react-bootstrap/Navbar';
 
 import logo from '../assets/img/logo.svg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
-import navIcon2 from '../assets/img/nav-icon2.svg';
-import navIcon3 from '../assets/img/nav-icon3.svg';
+import whatsapp from '../assets/img/whatsapp.svg';
+import github from '../assets/img/github.svg';
 
 export const NavBar = () => {
 
@@ -53,11 +53,14 @@ export const NavBar = () => {
                 
                 <span className='navbar-text'>
                     <div className='social-icon'>
-                        <a href="#"><img src={navIcon1}/></a>
-                        <a href="#"><img src={navIcon2}/></a>
-                        <a href="#"><img src={navIcon3}/></a>
+                        <a href="https://www.linkedin.com/in/joão-victor-nunes-b743ba235/"><img src={navIcon1}/></a>
+                        <a href="https://wa.me/5584998996339"><img src={whatsapp}/></a>
+                        <a href="https://github.com/jvictor1012"><img src={github}/></a>
                     </div>
-                    <button className='vdd' onClick={() => console.log("conectado")}><span>Vamos nos Conectar!</span></button>
+                    <button class="vdd" onclick="window.location.href='https://wa.me/5584998996339'">
+                      <span>Vamos nos Conectar!</span>
+                    </button>
+
                 </span>
 
                 </Navbar.Collapse>
