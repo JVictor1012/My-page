@@ -4,7 +4,7 @@ import logo1 from "../assets/img/react-logo.svg";
 import logo2 from "../assets/img/api-logo.svg";
 import logo3 from "../assets/img/angular-logo.svg";
 import logo4 from "../assets/img/postgresql-logo.svg";
-import logo5 from "../assets/img/mongodb-logo.svg";
+import logo5 from "../assets/img/Tailwind_CSS_Logo.svg";
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -41,7 +41,7 @@ export const Habilidades = () =>{
               <h2>
                 Habilidades
               </h2>
-              <p>Um pouco do que sei fazer</p>
+              
               <Carousel responsive={responsive} infinite={true} className="slider-habilidades" >
                 <div className="item">
                   <img src={logo1} alt="image" style={{ width: '204px', height: '204px' }}/>
@@ -61,7 +61,7 @@ export const Habilidades = () =>{
                 </div>
                 <div className="item">
                   <img src={logo5} alt="image" style={{ width: '204px', height: '204px' }}/>
-                  <h5>MongoDB</h5>
+                  <h5>Tailwind CSS</h5>
                 </div>
               </Carousel>
             </div>
